@@ -1,3 +1,14 @@
+# One month Rails
+
+This is a simple application for
+[*One month Rails: Teach Yourseld to Code*](http://onemonthrails.com)
+
+By [Daniel E]
+
+
+
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
