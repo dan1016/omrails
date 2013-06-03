@@ -1,0 +1,27 @@
+/* To change the default Bootstrap font*/
+/*$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxigen);*/
+
+/* it is possible to override many of the variables used by 
+the Bootstrap CSS should one decide to make the layout
+different from the original Boostrap look
+
+Beacuse Rails uses SCSS, istead of using @, the $ must be used
+*/ 
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+}
+
+.footer a {
+	color: $gray;
+}
